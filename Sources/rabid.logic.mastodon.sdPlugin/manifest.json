@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/mastodon", 
+      "Name": "post", 
+      "States": [
+        {
+          "Image": "action/images/mastodon"
+        }
+      ], 
+      "Tooltip": "post to Mastodon", 
+      "UUID": "rabid.logic.mastodon.post"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Rabid Logic", 
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "This Stream Deck plugin posts a defined message to a configured Mastodon account.", 
+  "Name": "Mastodon Plugin", 
+  "Icon": "action/images/mastodon", 
+  "URL": "", 
+  "Version": "1.0.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+  {
+        "MinimumVersion" : "4.1"
+  }
+}
